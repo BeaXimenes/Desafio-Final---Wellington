@@ -1,0 +1,14 @@
+package DesafioFinal;
+
+public class FaturaTeste {
+
+	public static void main(String[] args) {
+		Fatura fatura = new Fatura("F0001", "Teclado sem fio", 2, 129.99);
+		
+		System.out.println("Número da Fatura: " + fatura.getNumero());
+        System.out.println("Descrição: " + fatura.getDescricao());
+        System.out.println("Quantidade: " + fatura.getQuantidade());
+        System.out.println("Preço por item: R$ " + fatura.getPreco());
+        System.out.println("Valor total da fatura: R$ " + fatura.getTotalFatura());
+    }
+	}
